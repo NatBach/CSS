@@ -1,0 +1,31 @@
+/*specificity: multiple styles targetting one element*/
+/*the effect with the more 'specificity' wins out*/
+
+/*Type Selectors*/
+/*The least specific*/
+
+li{
+
+}
+
+li a {
+
+}
+
+li + a {
+
+}
+
+/*Class, Attribute, and Pseudo-Clash Selectors*/
+
+.hello{
+
+}
+
+input[type="text"]{
+
+}
+
+/*ID Selectors*/
+
+#hello

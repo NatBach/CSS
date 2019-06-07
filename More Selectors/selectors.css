@@ -1,0 +1,63 @@
+/*element selector*/
+li{
+
+}
+
+/*class selector*/
+.hello{
+
+}
+
+/*id selector*/
+#name{
+
+}
+
+/*star selector*/
+
+/*selects everything on the page. Apply to every single element*/
+*{
+	border: 2px dashed red;
+	/*gives every element in the page the '2px' of 'red' 'dashed' border.*/
+}
+
+/*Descendants Selector*/
+
+/*Changes two or more tags name / selectors together.*/
+/*DO NOT forget the 'space' between the 'a'nchor tag and the curly '{' brace.*/
+li a {	/*an 'a'nchor tag nested inside an 'li'*/
+	color: red;
+}
+
+/*Adjacent selector*/
+
+/*Lets us change the element that comes afer another element NOT nested inside.
+It allows us to select a sibling.*/
+
+h4 + ul { /*without the '+' it will be all "ul's" that is inside the 'h4'*/
+	border: 4px solid red;
+}	/*with the '+' it means all the "ul's" are adjacent to the 'h4'*/
+
+/*Attribute Selector*/
+
+/*Select elements that based off of any attributes*/
+
+a[href="http://www.google.ca"]{	/*Only 'Google link' has the yellow background*/
+	background: yellow;
+}
+
+/*nth of type*/
+
+/*Select any 5th 'div' or any 2nd 'li'*/
+
+ul:nth-of-type(3){  /*Every third 'ul' has the purple background*/
+	background: purple;
+}
+
+li:nth-of-type(3){	/*Every third 'li' has the green background*/
+	background: green;
+}
+
+li:nth-of-type(even){   /*Every 'even li' has the blue background*/
+	background: blue;
+}

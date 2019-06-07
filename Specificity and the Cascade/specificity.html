@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Specificity</title>
+
+ 	<style type="text/css">  /*Usually we do this in a separate file.*/
+
+ 	/*Demonstrating the concept of inheritance
+ 	When we set a property to the parent element it can also affect the child element.*/
+
+ 		/*ul{
+ 			color: purple;
+ 		}*/
+
+ 		/*body{
+ 			color: blue;
+ 		}*/
+
+ 	/*Demonstrating the 'specificity'*/
+
+ 	p{
+ 		color: red;
+ 	}
+
+ 	ul{
+ 		color: pink;
+ 	}
+
+ 	.highlight{
+ 		color: yellow;
+ 	}
+
+ 	#special{
+ 		color: blue;
+ 	}
+
+ 	</style>
+
+ </head>
+
+ <p>HELLO!!!</p>
+
+ <body>
+ 	<ul>
+ 		<li id="special" class="highlight">John</li>
+ 		<li>Paul</li>
+ 		<li>George</li>
+ 		<li class="highlight">Ringo</li>
+ 	</ul>
+ </body>
+ </html>

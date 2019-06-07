@@ -1,0 +1,57 @@
+h2 {
+	color: #2c3e50;
+	/*font-size: 2.0rem*/
+}
+
+h3 {
+	color: #3498db; /*Date*/
+}
+
+/* Gradient transparent - color - transparent */
+
+/*hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}*/
+
+/*.date {
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: .2rem; 
+	'rem' sets the size of the element 
+	based off the root NOT the parent element.
+}*/
+
+body {
+	font-family: Source Sans Pro;
+	border: 20px solid #bdc3c7;
+	margin: 80px;
+	/*margin: 0 auto; '0 px' top, bottom and 'auto' left, 
+	right in order to center the body*/
+
+	/*if the 'size' is another number NOT zero '0' then we will 
+	need to add in 'px' otherwise we do NOT need to write the 'px'*/
+
+	/*max-width: 700px;
+	width: 80%
+	make it '80%' when we need to, but 
+	at the maximum then make it '700px'*/
+
+	padding: 20px;
+	/*width: 700px;*/
+}
+
+#p3 {
+	padding-bottom: 10px;
+	border-bottom: 1px solid black;
+}
+
+.left-side {
+	padding-left: 2px; /*5px*/
+	border-left: 5px solid #bdc3c7;
+}
+
+/*.post {
+	margin-bottom: 20px;
+}*/

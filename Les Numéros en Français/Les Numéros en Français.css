@@ -1,0 +1,8 @@
+tbody tr:hover {
+	border: 10px red solid;
+	color: red;
+}
+
+table {
+	margin-left: 50px;
+}

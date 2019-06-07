@@ -1,0 +1,31 @@
+h1{
+	color: rgba(0,200,100, .8);
+	/*border: 5px solid purple;*/
+	/*border: 8px dashed rgb(255,100,80);*/
+	 border: 2px solid rgb(255,100,80);
+}
+
+/*3 things in the 'border'
+- width
+- style
+- color
+
+First way
+
+h1{
+	border-color: purple;
+	border-style: solid;
+	border-width: 5px;
+}
+
+or you can just combine three things at once
+
+border: 5px solid purple;*/
+
+h4{
+	background: rgb(255,100,80);
+}
+
+body{
+	background: pink;
+}

@@ -1,0 +1,27 @@
+/*Element Selector*/
+
+li{
+	border: 2px solid red;
+}
+
+/*ID Selector*/
+
+#special{
+	background: yellow;
+}
+
+/*Class Selector*/
+
+.complete{
+	text-decoration: line-through;
+}
+
+/*Use "#" (octothorp) in order to access the "ID"
+
+Use "." (dot) in order to access the "class"
+
+The difference between "ID" and "class" is that we can assign SAME "class" for multiple elements
+
+while ONE "ID" can only be assigned for ONE element.
+
+It is invalid in HTML to use one "ID" for multiple elements.*/
